@@ -1,0 +1,397 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		h1{margin-top: 0;margin-bottom: 0;}
+		h2{margin-top: 0;margin-bottom: 0;}
+		h3{margin-top: 0;margin-bottom: 0;}
+		p{margin-top: 0;margin-bottom: 0;}
+		a{color:black;text-decoration: none;}
+		.apple a{color: #7a7a7a;}
+       .container{width: 968px;height: 1598px;background-color: white;margin: 0 auto;}
+       .header{width: 936px;height: 117px;margin: 0 auto;}
+       .nave{width: 587px;height: 42px;;float: left;}
+       .Home{width: 103px;height: 41px;background-color: #fff200;border-bottom: 1px solid #333333;float: left;}
+       .nave1{margin-left: 2px;margin-top: 8px;float: left;}
+       .nave2{float: left;margin-left: 18px;color:black;font-size: 12px;font-family: Arial;margin-right: 0;width: 103px;}
+       .logo{width: 162px;height: 117px;background-color: #ffc929;float: right;background-image: url(images/logo.gif);}
+       .banner{width: 936px;height: 454px;border-bottom: 1px solid black;margin: 0 auto;}
+       .banner-left{width: 238px;height: 454px;float: left;}
+       ul{margin: 0; padding-left: 0;list-style:none;}
+       li{border-bottom: 1px solid #7a7a7a;margin-right: 16px;color:#7a7a7a;font-size: 15px;height:21px;}
+       .services{width: 222px;height: 21px;border-top: 1px solid black;border-bottom: 1px solid black;margin-top: 20px;margin-right: 16;}
+       .S{float: left;}
+       .b-l-title{font-size:25px;font-weight: bold;font-family: Arial;line-height: 31px;margin-right: 16px;}
+       .b-l-text{line-height: 17px;color:#7a7a7a;font-size: 12px;margin-top: 13px;margin-right: 16px;}
+       .banner-right{width: 698px;height: 453px;background-image: url(./images/London03.gif);float: right;}
+       .search{width: 936px;height: 58px;border-bottom: 1px solid black;margin: 0 auto;color:#bf917a;font-size:9px;font-family:Arial ;}
+       .s-arrow{margin-top: 20px;margin-bottom: 31px;margin-left: 5px;float: right;}
+       .s{margin-top: 19px;float: left;}
+       .s1{width: 136px;height: 58px;float: left;}
+       .s2{width: 135px;height: 58px;margin-left: 17px;float: left;}
+       .s3{width: 50px;height: 58px;margin-left: 17px;float: left;}
+       .s4{width: 68px;height: 58px;margin-left: 17px;float: left;}
+       .s5{width: 140px;height: 58px;margin-left: 117px;float: left;}
+       .s6{width: 195px;height: 21px;border-top: 1px solid black;border-left:1px solid black;border-bottom: 1px solid black;margin-top: 10px;margin-bottom: 25px;margin-left: 16px;float:left;}
+		.s-6{line-height: 21px;}
+       .s7{width: 25px;height: 21px;border: 1px solid black;margin-top: 10px;margin-bottom: 25px;float: right;}
+       .s7-arrow{margin-top: 7px;margin-right: 8px;margin-bottom: 7px;margin-left: 7px;}
+       .work{width: 936px;height: 310px;border-bottom: 1px solid black;background-color: white;margin: 0 auto;}
+       .work-title{width: 936px;height: 58px;border-bottom: 1px solid black;line-height: 58px;font-family: Arial;font-size: 22px;}
+       .work-bot{width: 936px;height: 251px;background-color: white;line-height: 17px;}
+       .work-bot-pic{width: 222px;height: 196px;border-bottom: 1px solid black;float: left;margin-right: 16px;background-color: white;}
+       .pic4{margin-right: 0px;}
+       .pic-top{width: 222px;height: 40px;background-color: white;}
+       .pic-bot{width: 222px;height: 24px;background-color: white;border-bottom: 1px solid black;}
+       .arrow{float: right;margin-top: 8px;margin-right: 3px;}
+       .find{float: left;}
+       .view{float: left;}
+       .about{width: 936px;height: 241px;background-color:white;border-bottom: 1px solid black;margin: 0 auto;}
+       .about-text{width: 222px;height: 241px;margin-right: 16px;background-color: white;float: left;}
+       .about-text3{width: 460px;height: 241px;float: left;margin-right: 0;background-color: white;}
+       .about-text-top{width: 222px;height: 62px;background-color: white;line-height: 62px;font-size: 22px;font-family:Arial;}
+       .about-text-mid{width: 222px;height: 106px;background-color: white;border-bottom: 1px solid black;line-height: 17px;color:#bf917a;}
+       .about-text-bot{width: 222px;height: 21px;border-bottom: 1px solid black;background-color: white;}
+       .about-text3-top{width: 460px;height: 62px;background-color: white;line-height: 62px;font-size: 22px;font-family:Arial;}
+       .about-text3-mid{width: 460px;height: 106px;background-color: white;border-bottom: 1px solid black;color:#bf917a}
+       .about-text3-bot{width: 460px;height: 21px;border-bottom: 1px solid black;background-color: white;}
+       .get{width: 936px;height: 214px;border-bottom: 1px solid black;background-color: white;margin: 0 auto;}
+       .get-text{width: 222px;height: 214px;background-color:white;margin-right: 16px;float: left;}
+       .text4{margin-right: 0;}
+       .text1-top{width: 222px;height: 139px;background-color: white;border-bottom: 1px solid black;}
+       .text1-mid{width: 222px;height: 21px;background-color: white;border-bottom: 1px solid black;}
+       .text1-bot{width: 222px;height: 21px;background-color: white;border-bottom: 1px solid black;}
+       .text2-top{width: 222px;height: 161px;background-color: white;border-bottom: 1px solid black;}
+       .top{background-image: url(images/gray_03.png);background-position: 0 49px;background-repeat: no-repeat;}
+       .when{margin-top: 23px;font-size: 12px;font-family: Arial;line-height: 15px;}
+       .text2-bot{width: 222px;height: 21px;background-color: white;border-bottom: 1px solid black;}
+       .fill{float: left;}
+       .map{float: left;}
+       .follow{float: left;}
+       .footer{width: 936px;height: 197px;margin: 0 auto;color:#a87a91;font-size: 10px;font-family:Arial}
+       .footer-left{width: 238px;height: 197px;float: left;}
+       .footer-center{width: 119px;height: 197px;float: left;line-height: 14px;font-size: 12px;font-family: Arial;}
+       .center1 li{background-image: url(images/jiantou_03.png);background-repeat: no-repeat;background-position: left center;border-bottom: none;text-indent: 8px;line-height: 15px;width: 101px;}
+       .footer-right{width: 341px;height: 197px;float: left;}
+       .home{margin-top: 24px}
+       .ragged{margin-left: 119px;margin-top: 24px}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="nave">
+				<div class="Home">
+					<a href="">
+						<h3 class="nave1">Home</h3>
+						<img class="arrow" src="images/arrow13.gif" alt="">
+					</a>
+				</div>
+				<ul>
+					<li class="nave2"><a href="">Service <img class="arrow" src="images/arrow.gif" alt=""></a></li>
+					<li class="nave2"><a href="">Our portfolio <img class="arrow"src="images/arrow.gif" alt=""></a></li>
+					<li class="nave2"><a href="">About us <img class="arrow"src="images/arrow.gif" alt=""></a></li>
+					<li class="nave2"><a href="">Contact us <img class="arrow"src="images/arrow.gif" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="logo">
+			</div>
+		</div>
+		<div class="banner">
+			<div class="banner-left">
+				<p class="b-l-title">A result driven design,digital and branding agency</p>
+				<p class="b-l-text">There are moments in life when you miss someone so much that you just want to pick them from your dreams and hug them for real! </p>
+				<div class="services">
+					<a href="">
+						<h3 class="S">Service</h3>
+						<img class="arrow" src="images/arrow6.gif" alt="">
+					</a>
+				</div>
+				<ul class="apple">
+					<li>
+						<a href="">apple  <img class="arrow" src="images/arrow12.gif" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">banana <img class="arrow" src="images/arrow12.gif" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">orange <img class="arrow" src="images/arrow12.gif" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">lemon <img class="arrow" src="images/arrow12.gif" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">pear <img class="arrow" src="images/arrow12.gif" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">grape <img class="arrow" src="images/arrow12.gif" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">melon <img class="arrow" src="images/arrow12.gif" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">strawberry <img class="arrow" src="images/arrow12.gif" alt="">
+						</a>
+					</li>
+				</ur>
+			</div>
+			<div class="banner-right"></div>
+			</div>
+			<div class="search">
+				<div class="s1">
+					<p class="s s-1">Call+4402078364881</p>
+				</div>
+				<div class="s2">
+					<a href="">
+						<p class="s s-2">Fill out a enquiry form</p>
+						<img class="s-arrow" src="images/arrow12.gif" alt="">
+					</a>
+				</div>
+				<div class="s3">
+					<a href="">
+						<p class="s s-3">Twitter</p>
+						<img class="s-arrow" src="images/arrow12.gif" alt="">
+					</a>
+				</div>
+				<div class="s4">
+					<a href="">
+						<p class="s s-4">Facebook</p>
+						<img class="s-arrow" src="images/arrow12.gif" alt="">
+					</a>
+				</div>
+				<div class="s5">
+					<p class="s s-5">Sgin up for our newsletter</p>
+				</div>
+				<div class="s6">
+					<p class="s-6">Enter your email</p>
+				</div>
+				<div class="s7">
+					<a href="">
+						<img class="s7-arrow" src="images/arrow12.gif" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="work">
+				<div class="work-title">
+					<h1>Our featured work</h1>
+				</div>
+				<div class="work-bot">
+					<div class="work-bot-pic pic1">
+						<div class="pic-top">
+							<p>RSVP members club</p>
+							<p>Grey Goose</p>
+						</div>
+						<div class="pic1-mid">
+							<img src="images/pic1.gif" alt="">
+						</div>
+						<div class="pic-bot">
+							<a href="">
+							<img class="arrow" src="images/arrow.gif" alt="">
+							<p class="find">Find out more</p>
+							</a>
+						</div>
+					</div>
+					<div class="work-bot-pic pic2">
+						<div class="pic-top">
+							<p>Annual review&report2010</p>
+							<p>NSPCC</p>
+						</div>
+						<div class="pic2-mid">
+							<img src="images/pic2.gif" alt="">
+						</div>
+						<div class="pic-bot">
+							<a href="">
+							<img class="arrow" src="images/arrow2.gif" alt="">
+							<p class="find">Find out more</p>
+							</a>
+						</div>
+					</div>
+					<div class="work-bot-pic pic3">
+						<div class="pic-top">
+							<p>Website&digital platform</p>
+							<p>Brindisa Spanish Food</p>
+						</div>
+						<div class="pic3-mid">
+							<img src="images/pic3.gif" alt="">
+						</div>
+						<div class="pic-bot">
+							<a href="">
+							<img class="arrow" src="images/arrow3.gif" alt="">
+							<p class="find">Find out more</p>
+							</a>
+						</div>
+					</div>
+					<div class="work-bot-pic pic4">
+						<div class="pic-top">
+							<p>Wine retailer branding</p>
+							<p>The Wine Reserve</p>
+						</div>
+						<div class="pic4-mid">
+							<img src="images/pic4.gif" alt="">
+						</div>
+						<div class="pic-bot">
+							<a href="">
+								<img class="arrow" src="images/arrow4.gif" alt="">
+								<p class="find">Find out more</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about">
+				<div class="about-text">
+					<div class="about-text-top">
+						<h2>About us</h2>
+					</div>
+					<div class="about-text-mid">
+						<p>i love to listen JAY's song.</p>
+					</div>
+					<div class="about-text-bot">
+						<a href="">
+							<p class="find">Find out more</p>
+							<img class="arrow"src="images/arrow5.gif" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="about-text">
+					<div class="about-text-top">
+						<h2>Our Process</h2>
+					</div>
+					<div class="about-text-mid">
+						<p>Begining with the intinal comissinon</p>
+					</div>
+					<div class="about-text-bot">
+						<a href="">
+							<p class="find">Find out more</p>
+							<img class="arrow" src="images/arrow6.gif" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="about-text3">
+					<div class="about-text3-top">
+						<h2>Testimonials</h2>
+					</div>
+					<div class="about-text3-mid">
+						<p>i want to eat hambugers.</p>
+						<p>i want to eat icecream.</p>
+					</div>
+					<div class="about-text3-bot">
+						<a href="">
+							<p class="view">View more testimonials</p>
+							<img class="arrow" src="images/arrow7.gif" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="get">
+				<div class="get-text">
+					<div class="text1-top">
+						<h2>Get in touch</h2>
+						<p>what are you doing?i want to eat friuts.i am thristy</p>
+					</div>
+					<div class="text1-mid">
+						<a href="">
+							<p class="fill">fill out an enquiry form</p>
+							<img class="arrow" src="images/arrow7.gif" alt="">
+						</a>
+					</div>
+					<div class="text1-bot">
+						<a href="">
+						<p class="map">Map&directions</p>
+						<img class="arrow" src="images/arrow7.gif" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="get-text">
+					<div class="text2-top">
+						<h2>We're hiring</h2>
+						<p>you are a king.i am a queen.</p>
+					</div>
+					<div class="text2-bot">
+						<a href="">
+							<p class="find">Find out more</p>
+							<img class="arrow" src="images/arrow7.gif" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="get-text">
+					<div class="text2-top top">
+						<h2>go shopping.</h2>
+						<p class="when">When you were born,you were crying and everyone around you was smiling.Live your life so that when you die.</p>
+					</div>
+					<div class="text2-bot">
+						<a href="">
+							<p class="follow">Follow us</p>
+							<img class="arrow" src="images/arrow7.gif" alt="">
+						</a>
+
+					</div>
+				</div>
+				<div class="get-text text4">
+					<div class="text2-top">
+						<h2>Keep in touch</h2>
+						<p>follow us in twitter</p>
+					</div>
+					<div class="text2-bot">
+						<a href="">
+							<p class="fill">Fill out an enquiry form</p>
+							<img class="arrow" src="images/arrow7.gif" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer-left">
+					<p class="home">Ragged Edge Design</p>
+				</div>
+				<div class="footer-center center1" >
+					<ul>
+						<li class="home">Home</li>
+						<li>About us</li>
+						<li>Methodology</li>
+						<li>Accessibility</li>
+						<li>RSS Feed</li>
+						<li>Site map</li>
+					</ul>
+				</div>
+				<div class="footer-center center1">
+					<ul>
+						<li class="home">Graphic</li>
+						<li>design</li>
+						<li>Web desigh &</li>
+						<li>build</li>
+						<li>Print design</li>
+						<li>E-commerce</li>
+					</ul>
+				</div>
+				<div class="footer-center center1">
+					<ul>
+						<li class="home">Featuredwork</li>
+						<li>Desigh work</li>
+						<li>Web design</li>
+						<li>work</li>
+						<li>Print design</li>
+						<li>work</li>
+						<li>E-commerce</li>
+						<li>work</li>
+					</ul>
+				</div>
+				<div class="footer-right">
+					<p class="ragged">©Ragged Edge Design Ltd. 2011</p>
+				</div>
+			</div>
+		</div>
+
+
+</body>
+</html>
